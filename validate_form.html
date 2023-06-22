@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>Validate form</title>
+      <link rel="stylesheet" href="validate_form.css">
+</head>
+<body>
+      <center>
+          <div class="html-form">
+              <h3>How to Validate Form Using JavaScript</h3>
+
+            <form method="post" id="registrationF">
+
+              <div class="container">
+                  <div>
+                      <input type="text" id="firstName" placeholder="First Name">
+                      <div id="first-name-err"></div>
+                  </div>
+                  
+                  <div>
+                    <input type="text" id="lastName" placeholder="Last Name Name">
+                    <div id="last-name-err"></div>
+                  </div>
+
+              </div>
+
+  
+              <div class="container">
+                <div>
+                  <input type="email" id="emailAddress" placeholder="Email Address">
+                  <div id="email-err"></div>
+                </div>
+                <div>
+                  <input type="text" id="mobileNumber" placeholder="Mobile Nubmer">
+                  <div id="mobile-number-err"></div>
+                  </div>
+     
+              </div>
+
+              <div class="container">
+
+                <div>
+                <input type="password" id="password" placeholder="Password">
+                <div id="password-err"></div>
+                </div>
+     
+                <div>
+                    <input type="password" id="confirmPassword" placeholder="Confirm Password">
+                    <div id="confirm-password-err"></div>
+                </div>
+              </div>
+
+              <input type="submit" name="submit" value="SUBMIT">
+
+            </form>
+          </div>
+      </center>
+      <script src="validate_form.js"></script>
+  </body>
+</html>
